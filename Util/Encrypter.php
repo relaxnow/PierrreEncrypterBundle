@@ -200,4 +200,15 @@ class Encrypter
 
         return $data;
     }
+
+    /**
+     * @param string $key
+     *
+     * @return $this
+     */
+    public function setKey($key)
+    {
+        $this->key = $key;
+        return $this;
+    }
 }
